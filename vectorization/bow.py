@@ -222,7 +222,7 @@ if __name__ == "__main__":
                      [0, 3, 2, 1, 5, 3, 1],
                      [9, 0, 4, 1, 8 ,4, 9, 3, 1, 2],
                      [8, 5, 2, 1, 8]]
-    bw = new BowSp()
+    bw = new BoWSp()
 
     y = bw.fit_transform(x)
     print(y)
