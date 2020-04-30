@@ -218,4 +218,11 @@ class BoWSp():
 
 
 if __name__ == "__main__":
-    pass
+    x = [[1, 2, 3, 0, 3, 2, 4, 5],
+                     [0, 3, 2, 1, 5, 3, 1],
+                     [9, 0, 4, 1, 8 ,4, 9, 3, 1, 2],
+                     [8, 5, 2, 1, 8]]
+    bw = new BowSP()
+
+    y = bw.fit_transform(x)
+    print(y)
